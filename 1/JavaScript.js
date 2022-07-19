@@ -24,8 +24,8 @@ console.log(
   `${myName[0]}${myName[3]}${myName[0]}${myName[6]}${myName[7]}${myName[8]}`
 );
 
-let varOne = prompt("What is your first favourite number?");
-let varTwo = prompt("What is your second favourite number?");
+let varOne = parseInt(prompt("What is your first favourite number?"));
+let varTwo = parseInt(prompt("What is your second favourite number?"));
 let varThree;
 
 function addValue(one, two, three) {
